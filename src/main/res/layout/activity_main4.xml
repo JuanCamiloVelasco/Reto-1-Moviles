@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#DFC8E4"
+    tools:context=".MainActivity4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:background="#731DEF"
+                android:text="Sucursales"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/design_default_color_background"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/marco"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                tools:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/imagenperro1"
+                    android:layout_width="326dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/local1" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvProName"
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:background="#731DEF"
+                        android:text="Sucursal Tiendanimal"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        android:textColor="@color/design_default_color_background"
+                        tools:text="Sucursal Tiendanimal" />
+
+                    <TextView
+                        android:id="@+id/tvProDesciption"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Descubre nuestra sucursal tiendanimal, todos nuestros servicios disponibles"
+                        android:textColor="?android:attr/colorPressedHighlight" />
+
+                    <Button
+                        android:id="@+id/btnperro1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Detalle" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/marco"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="317dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/local2" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt1"
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:background="#731DEF"
+                        android:text="Sucursal PetAnimal"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        android:textColor="@color/design_default_color_background" />
+
+                    <TextView
+                        android:id="@+id/txt3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Conoce nuestra sucursal donde encontraras la mas grande variedad de productos para tu mejor amigo"
+                        android:textColor="?android:attr/colorPressedHighlight" />
+
+                    <Button
+                        android:id="@+id/btnperro2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Detalle" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/marco"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/imgSucursales"
+                    android:layout_width="318dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/local3" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvSucName"
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:background="#731DEF"
+                        android:text="Sucursal mini-Bonnys"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/tvSucLocation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="En Bonnys tambien contamos con minitiendas en todo el pais donde podras conseguir una variedad de productos disponibles!"
+                        android:textColor="?android:attr/colorPressedHighlight" />
+
+                    <Button
+                        android:id="@+id/btngato1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Detalle" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/marco"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/imggatos2"
+                    android:layout_width="323dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/local4" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtg2"
+                        android:layout_width="match_parent"
+                        android:layout_height="33dp"
+                        android:background="#731DEF"
+                        android:text="Sucursal Tiendanimal Super"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/txtg3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nuestra mas grande sucursal donde encontraras todos los servicios de nuestro catalogo Bonnys disponible!"
+                        android:textColor="?android:attr/colorPressedHighlight" />
+
+                    <Button
+                        android:id="@+id/btngato2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Detalle" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/marco"
+                android:layout_margin="5dp"
+
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/imgServicios"
+                    android:layout_width="326dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/local5" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvServDescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="#731DEF"
+                        android:text="Tiendanimal Mini"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/tvServPrice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="En nuestra tiendanimal mini encontraras varios productos de nuestro catalogo disponibles!"
+                        android:textColor="?android:attr/colorPressedHighlight" />
+
+                    <Button
+                        android:id="@+id/btnperroygato"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Detalle" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
